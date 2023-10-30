@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume</title>
+  <title>Hannah Nguyen</title>
+  <link rel="stylesheet" href="assets/css/tailwind.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"
+    integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-<body>
-  <p>Open a PDF file <a href="/assets/pdf/resume.pdf">example</a>.</p>
+
+<body class="bg-gray-100">
+  <!-- <p>Open a PDF file <a href="/assets/pdf/resume.pdf">example</a>.</p> -->
+  <section class="py-10 md:py-16">
+
+    <div class="container max-w-screen-xl mx-auto px-4">
+
+      <nav class="flex items-center justify-between mb-10">
+        <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase m-4">Hannah Nguyen</h6>
+
+        <button
+          class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
+          <a href="/index.html">
+            Back
+          </a>
+        </button>
+      </nav>
+      <div class="flex justify-center mb-10">
+        <embed src="/assets/pdf/resume.pdf" width="1200px" height="1200px" />
+      </div>
+      <div class="flex justify-center">
+        <button
+          class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
+          <a href="/index.html">
+            Back
+          </a>
+        </button>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
